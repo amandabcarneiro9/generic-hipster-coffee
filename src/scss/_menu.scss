@@ -1,11 +1,62 @@
+
 .container {
     box-sizing: border-box;
-    width: 80%;
-    margin: 100px 0;
-}
-
-body {
-    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     
 }
 
+.menu {
+    width: 30%;
+    margin: 0 10%;
+    
+}
+
+.espresso-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+.iced {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}  
+
+.filter-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.coffee-specialites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.hot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.water {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lemonades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coffeepic {
+    background: 
+}

@@ -16,6 +16,7 @@ header {
 
   @include for-phone {
     flex-direction: column;
+    align-items: center;
   }
 
   img {
@@ -29,9 +30,16 @@ header {
     }
   }
   nav {
+    margin-top: 70px;
+
+    @include for-phone {
+      margin-top: 26px;
+    }
     a {
       text-decoration: none;
       color: #9e9f9f;
+      font-size: 24px;
+      padding: 10px;
     }
   }
 }

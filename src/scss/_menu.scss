@@ -1,6 +1,7 @@
 .menu {
   width: 80%;
   margin: 0 10%;
+<<<<<<< Updated upstream
   display: flex;
   -ms-flex-wrap: wrap;
 }
@@ -12,41 +13,50 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+=======
 
-.iced {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .espresso-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+>>>>>>> Stashed changes
 
-.filter-coffee {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .iced {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.coffee-specialites {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .filter-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.hot {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .coffee-specialites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.water {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .hot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.lemonades {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .water {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .lemonades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .

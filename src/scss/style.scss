@@ -12,9 +12,10 @@ header {
   background-color: $color-header;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 
-  .navbar {
-    display: inline-block;
+  @include for-phone {
+    flex-direction: column;
   }
 
   img {
@@ -25,6 +26,12 @@ header {
     @include for-phone {
       width: 100px;
       height: 100px;
+    }
+  }
+  nav {
+    a {
+      text-decoration: none;
+      color: #9e9f9f;
     }
   }
 }

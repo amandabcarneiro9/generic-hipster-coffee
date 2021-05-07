@@ -41,13 +41,17 @@ header {
       color: #9e9f9f;
       font-size: 24px;
       padding: 10px;
+
+      &:hover {
+        color: #333;
+      }
     }
   }
 }
 
 .container {
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 0 40px;
 
   .first-content {
     text-transform: uppercase;

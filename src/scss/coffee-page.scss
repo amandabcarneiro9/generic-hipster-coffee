@@ -1,0 +1,53 @@
+@import "media-queries";
+.contents__products {
+  margin: 0 auto;
+
+  h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+
+  p {
+    line-height: 30px;
+  }
+
+  a {
+    color: #aad3ff;
+  }
+}
+
+.container__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: 20px;
+
+  &__product {
+    background-color: #f8f9fa;
+
+    @include for-phone {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @include for-desktop {
+      width: calc(50% - 20px);
+      margin-bottom: 40px;
+    }
+    img {
+      border-top: solid 1px black;
+    }
+    h2 {
+      padding-left: 10px;
+      text-transform: uppercase;
+    }
+    span {
+      padding-left: 10px;
+    }
+    p {
+      padding-left: 10px;
+    }
+  }
+}

@@ -66,3 +66,13 @@
   }
 }
 */
+
+body {
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    
+    justify-content: space-between;
+  }

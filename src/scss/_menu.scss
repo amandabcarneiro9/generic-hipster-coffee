@@ -1,80 +1,27 @@
+@import "media-queries";
 
-
-/*
-  .espresso-coffee {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .iced {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .filter-coffee {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .coffee-specialites {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .hot {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .water {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .lemonades {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-*/
-/*
 .menu {
-  &__part {
-    &__prices {
-      display: grid;
-      grid-template-columns: 200px 100px 200px ;
-      grid-template-rows: 100px ;
-      grid-row-gap: 10xp;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-     .container  {
-      grid-row-start: 2;
-      grid-row-end: 3;
-      grid-column-start: 2;
-      grid-column-end: 3;
-     }
+  .side {
+    @include for-desktop {
+      width: calc(50% - 70px);
+    }
+    @include for-phone {
+      width: 100%;
     }
   }
 }
-*/
 .menu__part {
-
   &__prices {
     display: grid;
     grid-template-columns: auto 10%;
     grid-row-gap: 10px;
 
     span:nth-child(even) {
-      
       text-align: right;
     }
-
   }
-
 }

@@ -6,6 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 header {
@@ -49,15 +50,30 @@ header {
   margin: 0 auto;
 
   .first-content {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
     h1 {
       font-size: 28px;
     }
   }
 
   img {
-    @include for-phone {
-      width: 300px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .second-content {
+    h3 {
+      text-transform: uppercase;
     }
-    width: 1100px;
+    &__content {
+      @include for-desktop {
+        display: flex;
+        div {
+          width: 33%;
+        }
+      }
+    }
   }
 }

@@ -1,13 +1,21 @@
 @import '_menu';
+@import "media-queries";
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   display: flex;
 
   img {
-    width: 150px;
-    width: 150px;
+    @include for-desktop {
+      width: 150px;
+      width: 150px;
+    }
+    @include for-phone {
+      width: 100px;
+      height: 100px;
+    }
   }
 }

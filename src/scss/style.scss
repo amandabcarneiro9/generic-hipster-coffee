@@ -1,0 +1,29 @@
+@import "media-queries";
+
+.container {
+  background-color: yellow;
+
+  h1 {
+    background-color: orange;
+  }
+
+  p {
+    color: yellow;
+  }
+
+  @include for-phone {
+    width: 500px;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+
+  @include for-desktop {
+    width: 1000px;
+
+    h1 {
+      font-size: 5em;
+    }
+  }
+}

@@ -1,8 +1,5 @@
 
-.menu {
-  width: 80%;
-  margin: 0 10%;
-}
+
 /*
   .espresso-coffee {
     display: flex;
@@ -66,13 +63,18 @@
   }
 }
 */
+.menu__part {
 
-body {
-    box-sizing: border-box;
-}
+  &__prices {
+    display: grid;
+    grid-template-columns: auto 10%;
+    grid-row-gap: 10px;
 
-.menu {
-    display: flex;
-    
-    justify-content: space-between;
+    span:nth-child(even) {
+      
+      text-align: right;
+    }
+
   }
+
+}

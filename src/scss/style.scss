@@ -99,13 +99,16 @@ footer {
   color: white;
   text-align: center;
   margin-top: -60px;
-  padding-top: 60px;
+  padding: 60px 0;
+
+  a {
+    color: #0099ff;
+    text-decoration: none;
+  }
 
   nav {
     margin-top: 20px;
     a {
-      color: white;
-      text-decoration: none;
       padding: 10px;
     }
   }
